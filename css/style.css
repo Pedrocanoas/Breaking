@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-family: 'PT Serif', serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#093009, #000000);
+}
+
+header h1 {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 2.5em;
+}
+
+main {
+    width: 100%;
+    min-height: 90vh;
+    background: linear-gradient(#10790d, #369457);
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 255);
+}
+
+main form {
+    margin-top: 8%;
+    width: 30%;
+    height: 55vh;
+    background: linear-gradient(#3b3b3b, #000000);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form .title {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+main form .inputs-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form .inputs-container input {
+    width: 80%;
+    height: 40px;
+    padding: 10px 10px;
+    border: 3px solid #10790d;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    color: #000000;
+}
+
+main form .inputs-container input:focus {
+    border: 3px solid #369457;
+    box-shadow: inset 1pzx 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+main form .password-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form .password-container i {
+    position: absolute;
+    right: 13%;
+    top: 35%;
+    color: #777;
+    cursor: pointer;
+}
+
+main form .password-container #eye {
+    display: none;
+}
+
+main form .password-infos {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-bottom: 3px;
+}
+
+main form .password-infos a {
+    transition: 0.2s ease-in-out;
+}
+
+main form .password-infos a:hover {
+    color: royalblue;
+}
+
+main form button {
+    background-color: rgb(110, 110, 110);
+    color: #fff;
+    width: 80%;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin-top: 1%;
+    font-size: 1.6em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+main form button:hover {
+    background-color: #fff;
+    color: rgb(110, 110, 110);
+}
+
+main form .links-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px
+}
+
+main form .links-container span {
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+main form .links-container aside {
+    margin-top: 5px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main form .links-container aside i {
+    font-size: 1.6em;
+    background-color: #fff;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main form .links-container aside .google {
+    background-color: #fff;
+    color: #e34133;
+}
+
+main form .links-container aside .google:hover {
+    background-color: #e34133;
+    color: #fff;
+}
+
+main form .links-container aside .linkedin {
+    background-color: #fff;
+    color: #0a66c2;
+}
+
+main form .links-container aside .linkedin:hover {
+    background-color: #0a66c2;
+    color: #fff;
+}
+
+main form .links-container aside .facebook {
+    background-color: #fff;
+    color: #14a0f9;
+}
+
+main form .links-container aside .facebook:hover {
+    background-color: #14a0f9;
+    color: #fff;
+}
+
+main form footer {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form footer hr {
+    width: 80%;
+    height: 3px;
+    background-color: #fff;
+}
+
+main form footer span {
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+main form footer a {
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+
+main form footer a:hover {
+    color: #18acfe;
+}
