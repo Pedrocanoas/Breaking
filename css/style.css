@@ -6,6 +6,7 @@
     font-family: 'PT Serif', serif;
     text-decoration: none;
     color: #fff;
+    outline:none;
 }
 
 header {
@@ -59,7 +60,7 @@ main form .inputs-container input {
     width: 80%;
     height: 40px;
     padding: 10px 10px;
-    border: 3px solid #10790d;
+    border: none;
     border-radius: 5px;
     margin: 10px;
     font-size: 15px;
@@ -68,7 +69,8 @@ main form .inputs-container input {
 
 main form .inputs-container input:focus {
     border: 3px solid #369457;
-    box-shadow: inset 1pzx 3px 5px rgba(0, 0, 0, 0.5);
+    border: none;
+    box-shadow: inset 1px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 main form .password-container {
@@ -101,7 +103,7 @@ main form .password-infos {
 }
 
 main form .password-infos a {
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
 
 main form .password-infos a:hover {
@@ -120,7 +122,7 @@ main form button {
     font-size: 1.6em;
     font-weight: 600;
     cursor: pointer;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 main form button:hover {
@@ -156,7 +158,7 @@ main form .links-container aside i {
     height: 40px;
     width: 40px;
     border-radius: 20px;
-    transition: 0.3s ease-in-out;
+    transition: 0.1s ease-in-out;
     color: #fff;
     display: flex;
     align-items: center;
@@ -214,7 +216,7 @@ main form footer span {
 
 main form footer a {
     font-weight: 600;
-    transition: 0.2s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
 
 main form footer a:hover {
